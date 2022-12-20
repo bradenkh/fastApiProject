@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meal Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="navbar">
+        <!--login-->
+        <button id="login" type="button" onclick="showLogin()">Create user</button>
+        <!--(add a recipe)-->
+        <button id="addRecipe" type="button" onclick="showAddRecipe()">Add a Recipe</button>
+        <!--see all recipes-->
+        <button id="seeAllRecipes" type="button" onclick="showAllRecipes()">See All Recipes</button>
+        <!--search recipes-->
+        <button id="searchRecipes" type="button" onclick="showRecipeSearch()">Search Recipes</button>
+        <!--create a meal plan-->
+        <button id="createMealPlan" type="button" onclick="showCreateMealPlan()">Create a Meal Plan</button>
+        <!--add an entry to a meal plan-->
+        <button id="addEntryToMealPlan" type="button" onclick="showAddEntryToMealPlan()">Add to a Meal Plan</button>
+        <!--see past meal plans-->
+        <button id="seeMealPlans" type="button" onclick="showMealPlans()">See Meal Plans</button>
+
+        <button id="recreateTables" type="button" onclick="sendPostRequest('recreate-tables', {})">Recreate Tables</button>
+    </div>
+    <div id="form_area">
+
+    </div>
+    <div id="content_area">
+
+    </div>
+
+</body>
+</html>

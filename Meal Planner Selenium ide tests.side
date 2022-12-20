@@ -1,0 +1,470 @@
+{
+  "id": "cf9f1a04-b497-4f64-abae-06d3e35873dd",
+  "version": "2.0",
+  "name": "Meal Planner",
+  "url": "http://localhost:63342/fastApiProject/frontend/index.html",
+  "tests": [{
+    "id": "19306c6a-b660-4d52-983b-b32c14048bd6",
+    "name": "create cereal recipe",
+    "commands": [{
+      "id": "82ee53b7-adcf-4347-bfd2-47826e878c39",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:63342/fastApiProject/frontend/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67e30d63-c0d3-4bde-b59e-426665678ebb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1288x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c98439e1-1496-45ff-bc5f-5911536fcf21",
+      "comment": "",
+      "command": "click",
+      "target": "id=addRecipe",
+      "targets": [
+        ["id=addRecipe", "id"],
+        ["css=#addRecipe", "css:finder"],
+        ["xpath=//button[@id='addRecipe']", "xpath:attributes"],
+        ["xpath=//div[@id='navbar']/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add a Recipe')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b68a4e8c-6f50-42a2-84f1-8049f1e82e04",
+      "comment": "",
+      "command": "click",
+      "target": "id=recipe_name",
+      "targets": [
+        ["id=recipe_name", "id"],
+        ["name=recipe_name", "name"],
+        ["css=#recipe_name", "css:finder"],
+        ["xpath=//input[@id='recipe_name']", "xpath:attributes"],
+        ["xpath=//div[@id='form_area']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a98db57-042c-4d81-8c6f-bcac26e54116",
+      "comment": "",
+      "command": "type",
+      "target": "id=recipe_name",
+      "targets": [
+        ["id=recipe_name", "id"],
+        ["name=recipe_name", "name"],
+        ["css=#recipe_name", "css:finder"],
+        ["xpath=//input[@id='recipe_name']", "xpath:attributes"],
+        ["xpath=//div[@id='form_area']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Cereal"
+    }, {
+      "id": "09c1365a-1935-4a7d-ba0b-2319a3cad343",
+      "comment": "",
+      "command": "type",
+      "target": "id=recipe_description",
+      "targets": [
+        ["id=recipe_description", "id"],
+        ["name=recipe_description", "name"],
+        ["css=#recipe_description", "css:finder"],
+        ["xpath=//input[@id='recipe_description']", "xpath:attributes"],
+        ["xpath=//div[@id='form_area']/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "A bowl of cereal"
+    }, {
+      "id": "601f88cf-d2d0-4ff1-91ee-96ccf9b4e4d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(11)",
+      "targets": [
+        ["css=input:nth-child(11)", "css:finder"],
+        ["xpath=//input[@value='Add Ingredient']", "xpath:attributes"],
+        ["xpath=//div[@id='form_area']/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc64eb99-b6b3-4671-a656-cb8f829c37c4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=input:nth-child(11)",
+      "targets": [
+        ["css=input:nth-child(11)", "css:finder"],
+        ["xpath=//input[@value='Add Ingredient']", "xpath:attributes"],
+        ["xpath=//div[@id='form_area']/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bf3057a-e9ae-4ed3-a21e-abf2b920fa2e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=input:nth-child(11)",
+      "targets": [
+        ["css=input:nth-child(11)", "css:finder"],
+        ["xpath=//input[@value='Add Ingredient']", "xpath:attributes"],
+        ["xpath=//div[@id='form_area']/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da57c140-7347-45c1-82ee-d633a5750f47",
+      "comment": "",
+      "command": "click",
+      "target": "id=ingredient0",
+      "targets": [
+        ["id=ingredient0", "id"],
+        ["name=ingredient0", "name"],
+        ["css=#ingredient0", "css:finder"],
+        ["xpath=//input[@id='ingredient0']", "xpath:attributes"],
+        ["xpath=//div[@id='ingredient0wrapper']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81167635-6c44-4e1f-8784-5b6ed20814e5",
+      "comment": "",
+      "command": "type",
+      "target": "id=ingredient0",
+      "targets": [
+        ["id=ingredient0", "id"],
+        ["name=ingredient0", "name"],
+        ["css=#ingredient0", "css:finder"],
+        ["xpath=//input[@id='ingredient0']", "xpath:attributes"],
+        ["xpath=//div[@id='ingredient0wrapper']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Milk"
+    }, {
+      "id": "6685413d-5b53-4c2d-8df0-848043d8c336",
+      "comment": "",
+      "command": "type",
+      "target": "id=ingredient0qty",
+      "targets": [
+        ["id=ingredient0qty", "id"],
+        ["name=ingredient0qty", "name"],
+        ["css=#ingredient0qty", "css:finder"],
+        ["xpath=//input[@id='ingredient0qty']", "xpath:attributes"],
+        ["xpath=//div[@id='ingredient0wrapper']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "b3924536-4015-43d6-a7c8-bbeb26e02d98",
+      "comment": "",
+      "command": "select",
+      "target": "id=ingredient0unit",
+      "targets": [],
+      "value": "label=cup"
+    }, {
+      "id": "b1bb99aa-e18c-4204-be0a-32be1572c36d",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(11)",
+      "targets": [
+        ["css=input:nth-child(11)", "css:finder"],
+        ["xpath=//input[@value='Add Ingredient']", "xpath:attributes"],
+        ["xpath=//div[@id='form_area']/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b6b77d0-df7a-41b4-b72e-f4036201d8a1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=input:nth-child(11)",
+      "targets": [
+        ["css=input:nth-child(11)", "css:finder"],
+        ["xpath=//input[@value='Add Ingredient']", "xpath:attributes"],
+        ["xpath=//div[@id='form_area']/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34654af1-689e-4a75-acaf-896a9fbffda9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=input:nth-child(11)",
+      "targets": [
+        ["css=input:nth-child(11)", "css:finder"],
+        ["xpath=//input[@value='Add Ingredient']", "xpath:attributes"],
+        ["xpath=//div[@id='form_area']/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20d141a2-7e37-48a0-af79-cf9a09bb1de7",
+      "comment": "",
+      "command": "click",
+      "target": "id=ingredient1",
+      "targets": [
+        ["id=ingredient1", "id"],
+        ["name=ingredient1", "name"],
+        ["css=#ingredient1", "css:finder"],
+        ["xpath=//input[@id='ingredient1']", "xpath:attributes"],
+        ["xpath=//div[@id='ingredient1wrapper']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b377aae3-4821-4f3f-a1de-8cb4491bac6c",
+      "comment": "",
+      "command": "type",
+      "target": "id=ingredient1",
+      "targets": [
+        ["id=ingredient1", "id"],
+        ["name=ingredient1", "name"],
+        ["css=#ingredient1", "css:finder"],
+        ["xpath=//input[@id='ingredient1']", "xpath:attributes"],
+        ["xpath=//div[@id='ingredient1wrapper']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Cereal"
+    }, {
+      "id": "e40b5a30-253e-4de2-bcf4-e9ad4e81eaf2",
+      "comment": "",
+      "command": "type",
+      "target": "id=ingredient1qty",
+      "targets": [
+        ["id=ingredient1qty", "id"],
+        ["name=ingredient1qty", "name"],
+        ["css=#ingredient1qty", "css:finder"],
+        ["xpath=//input[@id='ingredient1qty']", "xpath:attributes"],
+        ["xpath=//div[@id='ingredient1wrapper']/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/input[2]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "98ab3631-5e4b-4b1b-a79f-e1241381e004",
+      "comment": "",
+      "command": "select",
+      "target": "id=ingredient1unit",
+      "targets": [],
+      "value": "label=cup"
+    }, {
+      "id": "44b2978e-7cf8-4cb5-b08e-30533eceed26",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(16)",
+      "targets": [
+        ["css=input:nth-child(16)", "css:finder"],
+        ["xpath=//input[@value='Add step']", "xpath:attributes"],
+        ["xpath=//div[@id='form_area']/form/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "242cf216-1cdb-46ff-9146-f30ea85c7cfa",
+      "comment": "",
+      "command": "click",
+      "target": "id=step0",
+      "targets": [
+        ["id=step0", "id"],
+        ["name=step0", "name"],
+        ["css=#step0", "css:finder"],
+        ["xpath=//input[@id='step0']", "xpath:attributes"],
+        ["xpath=//ol[@id='steps_area']/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b8cfc3e-6b1d-4603-bff6-f1a705512c0e",
+      "comment": "",
+      "command": "type",
+      "target": "id=step0",
+      "targets": [
+        ["id=step0", "id"],
+        ["name=step0", "name"],
+        ["css=#step0", "css:finder"],
+        ["xpath=//input[@id='step0']", "xpath:attributes"],
+        ["xpath=//ol[@id='steps_area']/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "Add Cereal to bowl"
+    }, {
+      "id": "dbec2ecf-e6d2-4dcd-9566-5b67d69fed17",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(16)",
+      "targets": [
+        ["css=input:nth-child(16)", "css:finder"],
+        ["xpath=//input[@value='Add step']", "xpath:attributes"],
+        ["xpath=//div[@id='form_area']/form/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74f99866-a63d-45f5-9b28-9efd452400b2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=input:nth-child(16)",
+      "targets": [
+        ["css=input:nth-child(16)", "css:finder"],
+        ["xpath=//input[@value='Add step']", "xpath:attributes"],
+        ["xpath=//div[@id='form_area']/form/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7862fb88-98d8-4077-beb5-c6b561ba4b30",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=input:nth-child(16)",
+      "targets": [
+        ["css=input:nth-child(16)", "css:finder"],
+        ["xpath=//input[@value='Add step']", "xpath:attributes"],
+        ["xpath=//div[@id='form_area']/form/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b192c981-b8ea-49f1-bc98-0c2d09f073e5",
+      "comment": "",
+      "command": "click",
+      "target": "id=step1",
+      "targets": [
+        ["id=step1", "id"],
+        ["name=step1", "name"],
+        ["css=#step1", "css:finder"],
+        ["xpath=//input[@id='step1']", "xpath:attributes"],
+        ["xpath=//ol[@id='steps_area']/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36d342ce-5501-4c32-9c10-4ef521e89cfb",
+      "comment": "",
+      "command": "type",
+      "target": "id=step1",
+      "targets": [
+        ["id=step1", "id"],
+        ["name=step1", "name"],
+        ["css=#step1", "css:finder"],
+        ["xpath=//input[@id='step1']", "xpath:attributes"],
+        ["xpath=//ol[@id='steps_area']/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "Add milk to bowl"
+    }, {
+      "id": "2dbd9500-e9c3-4600-ad1e-71f1b99c4948",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(16)",
+      "targets": [
+        ["css=input:nth-child(16)", "css:finder"],
+        ["xpath=//input[@value='Add step']", "xpath:attributes"],
+        ["xpath=//div[@id='form_area']/form/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8472a62-6097-4424-a6f3-e3912d41a546",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=input:nth-child(16)",
+      "targets": [
+        ["css=input:nth-child(16)", "css:finder"],
+        ["xpath=//input[@value='Add step']", "xpath:attributes"],
+        ["xpath=//div[@id='form_area']/form/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26a771d5-8555-4023-b355-a0754043dfa1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=input:nth-child(16)",
+      "targets": [
+        ["css=input:nth-child(16)", "css:finder"],
+        ["xpath=//input[@value='Add step']", "xpath:attributes"],
+        ["xpath=//div[@id='form_area']/form/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a83a3ea-41d0-4ee8-8c10-4177604b0a11",
+      "comment": "",
+      "command": "click",
+      "target": "id=step2",
+      "targets": [
+        ["id=step2", "id"],
+        ["name=step2", "name"],
+        ["css=#step2", "css:finder"],
+        ["xpath=//input[@id='step2']", "xpath:attributes"],
+        ["xpath=//ol[@id='steps_area']/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df5c9401-a3e3-41f8-bf98-3dad71c09cf9",
+      "comment": "",
+      "command": "type",
+      "target": "id=step2",
+      "targets": [
+        ["id=step2", "id"],
+        ["name=step2", "name"],
+        ["css=#step2", "css:finder"],
+        ["xpath=//input[@id='step2']", "xpath:attributes"],
+        ["xpath=//ol[@id='steps_area']/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": "Enjoy!"
+    }, {
+      "id": "6b00347c-3f80-4445-8204-6dbc52bb55db",
+      "comment": "",
+      "command": "click",
+      "target": "id=recipe_image",
+      "targets": [
+        ["id=recipe_image", "id"],
+        ["name=recipe_image", "name"],
+        ["css=#recipe_image", "css:finder"],
+        ["xpath=//input[@id='recipe_image']", "xpath:attributes"],
+        ["xpath=//div[@id='form_area']/form/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9a3e0ab-6fbf-4df0-83cb-3378bd201565",
+      "comment": "",
+      "command": "type",
+      "target": "id=recipe_image",
+      "targets": [
+        ["id=recipe_image", "id"],
+        ["name=recipe_image", "name"],
+        ["css=#recipe_image", "css:finder"],
+        ["xpath=//input[@id='recipe_image']", "xpath:attributes"],
+        ["xpath=//div[@id='form_area']/form/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "https://st2.depositphotos.com/1012056/5326/i/950/depositphotos_53260045-stock-photo-cornflakes-on-wooden-table.jpg"
+    }, {
+      "id": "3b82e276-94a6-4d3e-b30b-2f4055ee5bef",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(23)",
+      "targets": [
+        ["css=button:nth-child(23)", "css:finder"],
+        ["xpath=(//button[@type='button'])[10]", "xpath:attributes"],
+        ["xpath=//div[@id='form_area']/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create Recipe')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4996b6b1-00df-46dc-9918-6a7ad64864da",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:63342/", "http://localhost:63342/fastApiProject/frontend/index.html"],
+  "plugins": []
+}
